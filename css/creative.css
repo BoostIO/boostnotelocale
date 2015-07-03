@@ -8,6 +8,11 @@
 .icon-bar {
     background-color: #FFF !important;
 }
+.footer {
+  background-color: #1E9BD4;
+  padding: 25px;
+  color: white
+}
 
 html,
 body {
