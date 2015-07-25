@@ -1,0 +1,665 @@
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900italic' rel='stylesheet' type='text/css'>
+
+body{
+	font-family: 'Lato';
+	color: #EDEDED;
+}
+
+.main{
+	background-color: #010000;
+}
+
+/* HEADER */
+.header{
+	height: 100px; 
+
+}
+
+.header .left-list{
+	float: left;
+	line-height: 100px;
+}
+.header .left-list img.logo-image{
+	margin-right: 25px;
+}
+.header .left-list a{
+	color: #ACACAC;
+	text-decoration: none;
+	line-height: 50px;
+	margin-right: 15px;
+}
+.header .left-list a:hover{
+	color: white;
+}
+
+.header .right-list{
+	float: right;
+	line-height: 100px;
+}
+.header .right-list a{
+	color: #ACACAC;
+	text-decoration: none;
+	line-height: 50px;
+	margin-right: 15px;
+}
+.header .right-list a:hover{
+	color: white;
+}
+.header .right-list a.signup{
+	background-color: RGBA(0, 179, 148, 0.8);
+	box-sizing: border-box;
+	padding: 7px 20px;
+	color: white;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.header .right-list a.signup:hover{
+	background-color: RGBA(0, 179, 148, 1);
+}
+/*end header*/
+
+/*start main*/
+
+.main-1{
+	text-align: center;
+	color: white;
+	background-image: url('img/img_universe.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.main-1 h1{
+	margin-bottom: 35px;
+	font-weight: 400;
+	font-size: 5em;
+}
+.main-1 h2{
+	font-size: 2em;
+	font-weight: 200;
+}
+
+.main-1 .download{
+	background-color: RGBA(0, 179, 148, 0.8);
+  box-sizing: border-box;
+  color: white;
+  transition: 0.3s;
+  height: 50px;
+  width: 250px;
+  display: block;
+  line-height: 50px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 70px auto 70px;
+  font-size: 18px;
+}
+.main-1 .download:hover{
+	background-color: RGBA(0, 179, 148, 1);
+}
+.main-1 .scroll{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	color: white;1
+	margin: 0 auto;
+	border: solid 2px white;
+	line-height: 50px;
+}
+
+.main-2 h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+
+.main-2 h2{
+	text-align: center;
+	color: #BCBCBC;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	letter-spacing: 0.1em;
+}
+.main-2 p{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+
+}
+
+
+.main-3{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.main-3 h2{
+	text-align: center;
+	color: #ECECEC;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	margin-bottom: 50px;
+}
+
+.main-3 .col-sm-3 i{
+	font-size: 72px;
+	color: #26AE90;
+}
+
+.main-3 .col-sm-3 h3{
+	color: white;
+	font-size: 24px;
+	font-weight: 200;
+
+}
+
+.main-3 .col-sm-3 p{
+	color: #B3B3B3;
+	font-weight: 200;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	/*vertical-align: middle;*/
+	letter-spacing: 0.05em;
+}
+
+
+/*end main*/
+
+
+
+/*start detail*/
+
+
+
+.detail-1{
+	padding: 60px 0;
+}
+
+.detail-1 .left-pane{
+	margin-left: -15px;
+	margin-right: 15px;
+}
+.detail-1 .left-pane img{
+	width: 100%;
+}
+
+.detail-1 .right-pane h2{
+	color: black;
+	font-size: 2em;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.detail-1 .right-pane h2 strong{
+	color: #26AE90;
+}
+
+.detail1 .detail1-1 .explain1{
+	font-size: 18px;
+	color: #4D4D4D;
+	font-weight: 200;
+}
+
+.detail-1 .right-pane .download{
+	background-color: RGBA(0, 179, 148, 0.8);
+  box-sizing: border-box;
+  color: white;
+  transition: 0.3s;
+  height: 50px;
+  width: 250px;
+  display: block;
+  line-height: 50px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/*section2 start*/
+
+
+.detail2{
+	height: 550px;
+	 background: url('img/img05.png') center center / cover no-repeat fixed;
+	 width: 100%;
+	 float: left;
+}
+
+.detail2 .detail2-1{
+	float: left;
+	width: 45%;
+	margin-top: 10px;
+	position:relative;
+	color: white;
+	margin-top: 30px;
+	margin-left: 50px;
+
+
+
+}
+
+.detail2 .detail2-1 h2{
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	margin-top: 70px;
+
+}
+
+.detail2 .detail2-1 h2 span{
+	color: #26AE90;
+}
+
+.detail2 .detail2-1 h3{
+	font-weight: 300;
+	margin-left: 20px;
+}
+
+.detail2 .detail2-1 p{
+	font-size: 20px;
+	font-weight: 200;
+	padding-left: 40px; 
+}
+
+.detail2 .detail2-1 .description{
+	padding-left: 80px;
+	padding-bottom: 40px;
+}
+
+.detail2 .device2{
+	float: right;
+	width: 50%;
+	margin-top: 70px;
+
+	}
+
+	.detail3{
+	 
+	 height: 473px;
+	 width: 100%;
+	 background-color:#ECECEC;
+	 margin-top: 550px;
+	 	}
+
+.detail3 .detail3-1{
+	text-align: center;
+	margin-top: 60px;
+	
+}
+
+.detail3 .detail3-1 h2{
+	color: black;
+
+
+}
+
+
+.detail3 .detail3-1 h2 span{
+color: #26AE90;
+font-size: 36px;
+}
+
+.detail3 .detail3-1 p{
+color: #4d4d4d;
+font-size: 20px;
+font-weight: 200;
+letter-spacing: 0.03em;
+margin-top: 20px;
+}
+
+.detail3 .detail3-1 .markdown{
+	margin-bottom:
+	bottom: 0;
+	text-align: center;
+
+}
+
+
+.price{
+	height: 600px;
+}
+
+.price-menu{
+	margin-top: 60px;
+}
+
+.price-menu h2{
+	text-align: center;
+	color: #4D4D4D;
+	font-size: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.price-menu p{
+	text-align: center;
+	font-size: 18px;	
+}
+
+.price-menu p.attention{
+	color: #B3B3B3;
+	font-size: 18px;
+	font-weight: 200;
+
+}
+
+.price-menu p.attention span{
+	color: #4d4d4d;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+.price-menu .menu-box{
+	text-align: center;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	color: white;	
+
+
+}
+
+
+
+.price-menu .menu-box .col-xs-2 h3{
+	font-size: 30px;
+}
+
+.price-menu .menu-box .col-xs-2 p{
+	font-size: 18px;
+	margin-top: 30px;
+	font-weight: 400;
+}
+
+.price-menu .menu-box .col-xs-2 p span{
+	font-size: 36px;
+}
+
+.price-menu .menu-box .col-xs-2{
+  width: 20%;
+  
+}
+
+ .price-menu .menu-box .plan1 .plan-detail-flame1{
+ 	height: 250px;
+	border-radius: 10px;        /* CSS3草案 */  
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 10px;   /* Firefox用 */ 
+  margin-top: 20px;
+  background-color: #9ECCC0;
+  position: relative;
+
+}
+
+.price-menu .menu-box .plan-detail1{
+	position: absolute;
+	left: 24%;		
+	top: 10px;		
+}
+
+.price-menu .menu-box .plan2 .plan-detail-flame2{
+ 	height: 250px;
+	border-radius: 10px;        /* CSS3草案 */  
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 10px;   /* Firefox用 */ 
+  margin-top: 20px;
+  background-color: #7CD1C1;
+  position: relative;
+
+}
+	
+	.price-menu .menu-box .plan-detail2{
+	position: absolute;
+	left: 24%;			
+	top: 10px;	
+}
+
+
+.price-menu .menu-box .plan3 .plan-detail-flame3{
+ 	height: 250px;
+	border-radius: 10px;        /* CSS3草案 */  
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 10px;   /* Firefox用 */ 
+  margin-top: 20px;
+  background-color: #46CC98;
+  position: relative;
+
+}
+	
+	.price-menu .menu-box .plan-detail3{
+	position: absolute;
+	left: 20%;			
+	top: 10px;	
+}
+
+.price-menu .menu-box .plan4 .plan-detail-flame4{
+ 	height: 250px;
+	border-radius: 10px;        /* CSS3草案 */  
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 10px;   /* Firefox用 */ 
+  margin-top: 20px;
+  background-color: #13BC8B;
+  position: relative;
+
+}
+	
+	.price-menu .menu-box .plan-detail4{
+	position: absolute;
+	left: 20%;		
+	top: 10px;	
+}
+
+
+ .price-menu .menu-box .plan5 .plan-detail-flame5{
+ 	height: 250px;
+	border-radius: 10px;        /* CSS3草案 */  
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 10px;   /* Firefox用 */ 
+  margin-top: 20px;
+  background-color: #088253;
+  position: relative;
+
+}
+	
+	.price-menu .menu-box .plan-detail5{
+	position: absolute;
+	left: 20%;		
+	top: 10px;	
+}
+
+
+.price-menu .menu-box .col-xs-2 .upgrade{
+	margin-top: 12px;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 20px;
+	border-radius: 8px;        /* CSS3草案 */  
+  -webkit-border-radius: 8px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 8px;   /* Firefox用 */ 
+	
+}
+
+
+.price-menu .menu-box .col-xs-2 a{
+	color: white;
+}
+
+
+
+.price-menu .menu-box .col-xs-2 .upgrade2{
+	background-color: #7CD1C1;
+}
+
+.price-menu .menu-box .col-xs-2 .upgrade3{
+	background-color: #46CC98;
+}
+
+.price-menu .menu-box .col-xs-2 .upgrade4{
+	background-color: #13BC8B;
+}
+
+.price-menu .menu-box .col-xs-2 .upgrade5{
+	background-color: #088253;
+}
+
+
+.create-planet{
+	height: 120px;
+	line-height: 120px;
+	background-color: #ea5a42;
+	text-align: center;
+}
+
+.create-planet a{
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 36px;
+	vertical-align: middle;
+
+}
+
+
+.user{
+	height: 400px;
+	background-color: #ececec;
+}
+
+.uservoice{
+	text-align: center;
+	padding-top: 60px;
+}
+
+.uservoice .user-img{
+	width: 80px;
+	height: 80px	
+}
+
+.uservoice .user-profile h3{
+color: #4d4d4d;	
+font-size: 20px;
+font-weight: 400;
+padding-top: 20px;
+font-family: 'Lato', sans-serif;
+
+}
+
+
+.user-comment p{
+	color: #26ae90;
+	font-size: 34px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	padding-top: 30px;
+}
+
+.footer{
+	background-image: url('img/img07.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 640px;
+	margin:0px;
+	padding:0px;
+	
+}
+
+.footer .message{
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 700;
+	font-size: 40px;
+	color: white;
+
+}
+
+.footer-main{
+	margin-top: 170px;
+	height: 120px;
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+
+.footer .footer1{
+	list-style-type: none;
+	color:#4d4d4d;
+	float: left;
+	margin-right: 20px;
+	font-size: 16px;
+
+}
+
+.footer .footer1 li a{
+	text-decoration: none;
+	color:#4d4d4d;
+}
+
+.footer .footer1 li img{
+	width: 40px;
+	height: 40px;
+}
+
+.footer .footer2{
+	float: left;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+
+.footer .footer2 li a{
+	
+	color:#4d4d4d;
+}
+
+.footer .social{
+	float: right;
+	list-style-type: none;
+	margin-right: 30px;
+	margin-top: 10px;
+
+}
+
+
+.footer .social li{
+	display: inline;
+	font-size: 40px;
+	margin-top: 700px;
+}
+
+
+.footer .social .fa-facebook-square{
+	margin-right: 20px;
+	color: #305097;
+}
+
+.footer .social .fa-twitter-square{
+	margin-right: 20px;
+	color: #00aced;
+}
+
+.footer .social .fa-github-square{
+	color: black;
+}
+
+
+.corporate{
+	text-align: center;
+
+}
+
