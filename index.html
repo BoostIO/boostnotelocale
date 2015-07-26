@@ -2,93 +2,99 @@
 <html>
 <head>
   <title></title>
-  <link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
 
 <!-- section main start -->
 
   <section class="main">
-    
-    <header class="header container">
-      <nav class="left-list">
-        <img class="logo-image" height="50" src="img/logo.png">
-        <a>ABOUT</a>
-        <a>FEATURE</a>
-        <a>PRICE</a>
-        <a>ABOUT US</a>
-      </nav>
-      <nav class="right-list">
-        <a>LOGIN</a>
-        <a class="signup">SIGNUP</a>
-      </nav>
+
+    <header id="header" class="header closed">
+      <div class="container">
+        <a class="logo">
+          <img height="50" src="img/logo.png"> CodeXen
+          <i id="headerToggle" class="toggle fa fa-bars"></i>
+        </a>
+        <nav class="left-list">
+          <a>ABOUT</a>
+          <a>FEATURE</a>
+          <a>PRICE</a>
+          <a>ABOUT US</a>
+        </nav>
+        <nav class="right-list">
+          <a>LOGIN</a>
+          <a class="signup">SIGNUP</a>
+        </nav>
+      </div>
     </header>
 
-    <div class="main-1 container">
+    <section class="main-1 container">
       <h1>Hack your memory :-))</h1>
       <h2>CodeXen is brand new code manager<br>for creative hackers.</h2>
       <a class="download">Download mac app</a>
       <a class="scroll"><i class="fa fa-chevron-down"></i></a>
-    </div>
+    </section>
 
-    <div class="main-2 container">
-      <h1>Free hackers from learn by heart.</h1>
-      <h2>Don't waste time cleaning up your data,<br>devote that time to more creative work.</h2>   
-    </div>
+    <section class="main-2">
+      <div class="container">
+        <h1>Free hackers from learn by heart.</h1>
+        <h2>Don't waste time cleaning up your data,<br>devote that time to more creative work.</h2>
+      </div>
+    </section>
 
 
-    <div class="main-3 container">
-      <h2>You can substitute CodeXen for：</h2>  
-      <div class="row">
-        <div class="col-sm-3">
-          <p><i class="fa fa-archive"></i></p>
-          <h3>Memory</h3>
-          <p>Record all information<br>about development.
-programming knowledge, <br>commonly used code, and so on.</p>
-        </div>
-        <div class="col-sm-3">
-          <p><i class="fa fa-search"></i></p>
-          <h3>Search</h3>
-          <p>Have you found yourself googling<br>same code many times?<br>Organising information<br> on the Internet should be simpler.</p>
-        </div>
-        <div class="col-sm-3">
-          <p><i class="fa fa-code"></i></p>
-          <h3>Coding</h3>
-          <p>Accessing to CodeXen,<br>
- coping code,and browsing<br>
-frequently-used Blueprint  is seamless.</p>
-        </div>
-        <div class="col-sm-3">
-          <p><i class="fa fa-share-alt"></i></p>
-          <h3>Share</h3>
-          <p>Sharing information,<br>
-skills,knowledge in your team<br>
- is simpler andmore fun.</p>
-          
+    <section class="main-3">
+      <div class="container">
+        <h2>You can substitute CodeXen for：</h2>
+        <div class="substitute-list row">
+          <div class="col-sm-6 col-md-3">
+            <i class="fa fa-archive"></i>
+            <h3>Memory</h3>
+            <p>Record all information about development.
+  programming knowledge, commonly used code, and so on.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <i class="fa fa-search"></i>
+            <h3>Search</h3>
+            <p>Have you found yourself googling same code many times? Organising information on the Internet should be simpler.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <i class="fa fa-code"></i>
+            <h3>Coding</h3>
+            <p>Accessing to CodeXen, coping code,and browsing frequently-used Blueprint is seamless.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <i class="fa fa-share-alt"></i>
+            <h3>Share</h3>
+            <p>Sharing information, skills,knowledge in your team is simpler andmore fun.</p>
+
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
   <!-- section main end -->
-
-
 
   <!-- section detail  start -->
   <!-- detail1 start -->
   <section class="detail-1">
-    <div class="row">
-      <div class="left-pane col-sm-6">
-        <img src="img/img02.png">
-      </div>
-      <div class="right-pane col-sm-6">
-        <h2>Type <strong>[tab + control + shift]</strong> at once.</h2>
-        <p>CodeXen call code or you posted in a flash wherever you are.</p>
-        <p>When you forget commonly used snippet or have to write long troublesome code, You can instantly browse some code or copy and paste them.</p>
-        <p>All process could be carrieDownload Mac Appd out on text editer.</p>
-        <p class="alert">*Only on Mac App.</p>
-        <a class="download">Download Mac App</a>
+    <div class="container">
+      <div class="row">
+        <div class="left-pane col-sm-6">
+          <img src="img/img02.png">
+        </div>
+        <div class="right-pane col-sm-6">
+          <h2>Type <strong>[tab + control + shift]</strong> at once.</h2>
+          <p>CodeXen call code or you posted in a flash wherever you are.</p>
+          <p>When you forget commonly used snippet or have to write long troublesome code, You can instantly browse some code or copy and paste them.</p>
+          <p>All process could be carrieDownload Mac Appd out on text editer.</p>
+          <p class="alert">*Only on Mac App.</p>
+          <a class="download">Download Mac App</a>
+        </div>
       </div>
     </div>
   </section>
@@ -98,19 +104,24 @@ skills,knowledge in your team<br>
 
    <!-- detail2  start-->
 
-  <div class="detail2 container">
-    <div class="row">
-      <div class ="detail2-1 col-sm-6">
-        <h2>Manage&Share with <span>"Planet".</span></h2>
-        <h3>Planet has 2 main role.</h3>
-        <p class="title">1.Folder</p>
-        <p class="description">Code can be saved in one Planet or another.<br>With Planet, You can manage many codes easily.</p>
-        <p class="title">2.Private group</p> 
-        <p class="description">You can invite your friends into a Planet you made.<br> Share your knowledge, source code, and so on.</p>
-      </div>
+  <div class="detail2">
+    <div class="container">
+      <div class="row">
+        <div class="left-pane col-sm-6">
+          <h2>Manage&Share with <strong>"Planet".</strong></h2>
 
-      <div class="device2 col-sm-6">
-        <p class="pc2"><img src="img/img03.png"></p>
+          <h3>Planet has 2 main role.</h3>
+
+          <h4>1. Folder</h4>
+          <p class="description">Code can be saved in one Planet or another.<br>With Planet, You can manage many codes easily.</p>
+
+          <h4>2. Private group</h4>
+          <p class="description">You can invite your friends into a Planet you made.<br> Share your knowledge, source code, and so on.</p>
+        </div>
+
+        <div class="right-pane col-sm-6">
+          <img src="img/img03.png">
+        </div>
       </div>
     </div>
   </div>
@@ -121,108 +132,70 @@ skills,knowledge in your team<br>
  <!-- detail3  start-->
 
 <div class="detail3 container">
-<div class="row">
-<div class="detail3-1">
-<h2><span>“Blueprint”</span> can be written with Markdown.</h2>
-<p>Blueprint is a notebook for the hacker.<br>
-Write your knowledge with markdown.</p>
-<p class="markdown"><img src="img/img04.png"></p>
+  <h2><strong>“Blueprint”</strong> can be written with Markdown.</h2>
 
+  <p>Blueprint is a notebook for the hacker.<br>
+  Write your knowledge with markdown.</p>
 
-</div>
-</div>
+  <img src="img/img04.png">
 </div>
 
   <!-- detail3  end-->
 
 <!-- section price  start -->
 <section class="price">
-<div class="price-menu container">
-<div class="low">
-<h2>Pricing guide</h2>
+  <div class="container">
+    <h2>Pricing guide</h2>
 
-<div id="menu-12-col" class="menu-box ol-xs-12">
-      
+    <ul class="plan-list clearfix">
 
-      <div class="plan1 col-xs-2 col-xs-15">
-      <div class="plan-detail-flame1">
-      <div class="plan-detail1">
-       <h3>Free</h3>
-       <p>$<span>0</span></p>
-       <p>~6 person<br>Per a planet.</p>
-      </div>
-      </div>
-    
-      </div>
+      <li>
+        <div class="plan-detail">
+          <h3>Free</h3>
+          <p>$<span>0</span></p>
+          <p>~6 person<br>Per a planet.</p>
+        </div>
+      </li>
 
+      <li>
+        <div class="plan-detail">
+          <h3>Small</h3>
+          <p>$<span>9.99</span></p>
+          <p>7~12 Person<br>Per a planet.</p>
+        </div>
+        <a class="upgrade">Upgrade now</a>
+      </li>
 
-      <div class="plan2 col-xs-2 col-xs-15">
-      <div class="plan-detail-flame2">
-      <div class="plan-detail2">
-      <h3>Small</h3>
-       <p>$<span>9.99</span></p>
-       <p>7~12 Person<br>Per a planet.</p>
-      </div>
-      </div>
-       <div class="upgrade upgrade2">
-      <a href="">upgrade now</a>
-      </div>
-      </div>
+      <li>
+        <div class="plan-detail">
+          <h3>Medium</h3>
+          <p>$<span>29.99</span></p>
+          <p>13~18 person<br>Per a planet.</p>
+        </div>
+        <a class="upgrade">Upgrade now</a>
+      </li>
 
+      <li>
+        <div class="plan-detail">
+          <h3>Large</h3>
+          <p>$<span>59.99</span></p>
+          <p>19~30 person<br>Per a planet.</p>
+        </div>
+        <a class="upgrade">Upgrade now</a>
+      </li>
 
+      <li>
+        <div class="plan-detail">
+          <h3>Premium</h3>
+          <p>$<span>119.99</span></p>
+          <p>30~50 person<br>Per a planet.</p>
+        </div>
+        <a class="upgrade">Upgrade now</a>
+      </li>
+    </ul>
 
-      <div class="plan3 col-xs-2 col-xs-15">
-      <div class="plan-detail-flame3">
-      <div class="plan-detail3">
-      <h3>Medium</h3>
-       <p>$<span>29.99</span></p>
-       <p>13~18 person<br>Per a planet.</p>
-      </div>
-      </div>
-      <div class="upgrade upgrade3">
-      <a href="">upgrade now</a>
-      </div>
-      </div>
-
-
-
-      <div class="plan4 col-xs-2 col-xs-15">
-      <div class="plan-detail-flame4">
-      <div class="plan-detail4">
-      <h3>Large</h3>
-       <p>$<span>59.99</span></p>
-       <p>19~30 person<br>Per a planet.</p>
-      </div>
-      </div>
-      <div class="upgrade upgrade4">
-      <a href="">upgrade now</a>
-      </div>
-      </div>
-      
-
-
-      <div class="plan5 col-xs-2 col-xs-15">
-      <div class="plan-detail-flame5">
-      <div class="plan-detail5">
-       <h3>Premium</h3>
-       <p>$<span>119.99</span></p>
-       <p>30~50 person<br>Per a planet.</p>
-      </div>
-      </div>
-      <!-- <div class="upgrade upgrade5"<a href="http://www.flaticon.com/">upgrade now</a></div> -->
-      <div class="upgrade upgrade5">
-      <a href="">upgrade now</a>
-      </div>
-      </div>
-
-        
-
-
-</div>
-  <p class="attention">*If your team has more than 50 members, an Enterprise plan is available.<br>Please feel free to contact me:  <span>taka@maisin.co</span></p>
-</div>
-</div>
-
+    <p class="attention">*If your team has more than 50 members, an Enterprise plan is available.<br>Please feel free to contact me:  <a>taka@maisin.co</a></p>
+  </div>
 
 </section>
 <!-- section price end -->
@@ -230,68 +203,66 @@ Write your knowledge with markdown.</p>
 
 <!-- section create planet start -->
 <section class="create">
-<div class="create-planet contaienr">
-<div class="row"></div>
-<a href="">Create new Planet<i class="fa fa-arrow-right"></i></a>
-
-</div>
+  <a href="">Create new Planet<i class="fa fa-arrow-right"></i></a>
 </section>
 
 <!-- section create planet end -->
 <!-- section uservoice start -->
 
 <section class="user">
-<div class="uservoice">
- <div class="user-profile">
-   <p><img class="user-img" src="img/img06.png"></p>
-   <h3>Yuta Matsuyama TECHFUND, Inc. CEO & CTO said....</h3>
-</div>
-<div class="user-comment">
-  <p>“CodeXen is like an add-on tool for hacker’s memory.<br>
-Almost as if being hacked, all the information you need is accessible.”</p>
-  
-</div>
-</div>
+  <div class="uservoice container">
+    <div class="user-profile">
+      <p><img class="user-img" src="img/img06.png"></p>
+      <h3>Yuta Matsuyama TECHFUND, Inc. CEO & CTO said....</h3>
+    </div>
+    <p class="user-comment">“CodeXen is like an add-on tool for hacker’s memory.<br>
+    Almost as if being hacked, all the information you need is accessible.”</p>
+  </div>
 </section>
 
 <!-- section uservoice end -->
 <!-- section footer start -->
 <section class="footer">
-<div class="message">
- <p class="misssion">Our mission is “Beyond the era”<br>
-By using CodeXen, increase your  creativity and efficiency;<br>
-That is neccessary for progress.<br>
-HACK YOU!!</p>
-</div>
+  <p class="message">
+    Our mission is “Beyond the era”<br>
+    By using CodeXen, increase your  creativity and efficiency;<br>
+    That is neccessary for progress.<br>
+    HACK YOU!!
+  </p>
 
-<div class="footer-main">
- <ul class="footer1">
-<li><img src="img/rocket.png"></li>
-<li>CodeXen made by <a href="">MAISIN&CO.</a></li>
-<li>From Tokyo,JAPAN.</p></li>
-</ul>
+  <div class="footer-main clearfix">
+    <ul class="footer1">
+      <li><img src="img/logo.png"></li>
+      <li>CodeXen made by <a href="">MAISIN&CO.</a></li>
+      <li>From Tokyo,JAPAN.</p></li>
+    </ul>
 
-<ul class="footer2">
-  <li><a href="">Contact us</a></li>
-  <li><a href="">Download Mac App</a></li>
-  <li><a href="">Term of service</a></li>
-  <li><a href="">Policies</a></li>
-</ul>
+    <ul class="footer2">
+      <li><a href="">Contact us</a></li>
+      <li><a href="">Download Mac App</a></li>
+      <li><a href="">Term of service</a></li>
+      <li><a href="">Policies</a></li>
+    </ul>
 
-<ul class="social">
- <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
- <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
- <li><a href=""><i class="fa fa-github-square"></i></a></li>
-</ul>
-</div>
+    <ul class="social">
+     <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+     <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+     <li><a href=""><i class="fa fa-github-square"></i></a></li>
+    </ul>
+  </div>
 
-
-<p class="corporate">@ 2015 MAISIN&CO.,inc</p>
+  <p class="corporate">@ 2015 MAISIN&CO.,inc</p>
 
 </section>
 
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script>
+$('#headerToggle').click(function () {
+  var header = $('#header')
+  header.hasClass('closed') ? header.removeClass('closed') : header.addClass('closed')
+})
+</script>
 
-    
 
 </body>
 </html>
