@@ -95,10 +95,12 @@ body {
   .header .right-list a {
     display: block;
     height: 44px;
+
   }
   .header .right-list a.signup {
     padding: 0;
     background: transparent;
+    font-size: 1.8em;
   }
   .header .right-list a.signup:hover {
     background: transparent;

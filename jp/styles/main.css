@@ -61,6 +61,7 @@ body {
   background-color: rgba(0,154,116,0.8);
   color: #fff;
   text-shadow: none;
+  font-size: 1.0em;
 }
 .header .right-list a.signup:hover {
   background-color: #26ae90;
@@ -175,7 +176,7 @@ body {
   margin-bottom: 40px;
 }
 .main-2 h2 {
-  color: #bcbcbc;
+  color: RGB(176, 171, 158);
   margin-bottom: 40px;
   font-size: 2em;
   font-weight: 400;
