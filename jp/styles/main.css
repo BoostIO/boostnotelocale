@@ -1,5 +1,6 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
   color: #4d4d4d;
 }
 .main {
@@ -9,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  text-shadow: #000 2px 2px 5px;
+  /*text-shadow: #000 2px 2px 5px;*/
 }
 .header {
   position: fixed;
@@ -25,7 +26,6 @@ body {
   margin-right: 15px;
   transition: 0.1s;
 }
-
 .header a:hover {
   color: #fff;
 }
@@ -61,7 +61,6 @@ body {
   background-color: rgba(0,154,116,0.8);
   color: #fff;
   text-shadow: none;
-  font-size: 1.0em;
 }
 .header .right-list a.signup:hover {
   background-color: #26ae90;
@@ -114,25 +113,25 @@ body {
   box-sizing: border-box;
   padding-top: 160px;
   padding-bottom: 60px;
+
 }
 .main-1 h1 {
   margin-bottom: 35px;
   font-weight: 400;
   font-size: 5em;
+  text-shadow: #000 2px 2px 5px;
 }
 .main-1 h2 {
   font-size: 2em;
   font-weight: 200;
   letter-spacing: 0.1em;
+  line-height: 150%;
 }
-
-
-
 .main-1 .download {
   box-sizing: border-box;
   transition: 0.1s;
   height: 50px;
-  width: 340px;
+  width: 300px;
   display: block;
   line-height: 50px;
   border-radius: 25px;
@@ -158,11 +157,12 @@ body {
 }
 
 .main-1 .scroll:hover{
-  border: solid 2px #26ae90;
+   border: solid 2px #26ae90;
   background-color: #26ae90;
   color: white;
 
 }
+
 
 .main-2 {
   text-align: center;
@@ -176,11 +176,12 @@ body {
   margin-bottom: 40px;
 }
 .main-2 h2 {
-  color: RGB(176, 171, 158);
+  color: #bcbcbc;
+  font-size: 1.8em;
+  font-weight: 300;
   margin-bottom: 40px;
-  font-size: 2em;
-  font-weight: 400;
   letter-spacing: 0.1em;
+  line-height: 150%;
 }
 .main-2 p {
   color: #fff;
@@ -210,10 +211,8 @@ body {
 }
 .main-3 .substitute-list h3 {
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 200;
-  margin-bottom: 20px;
-  margin-top: 40px;
 }
 .main-3 .substitute-list p {
   color: #b3b3b3;
@@ -223,11 +222,15 @@ body {
 }
 /*end main*/
 /*start detail*/
+.detail-1 {
+background-color: white;
+}
+
+
 .detail-1 .left-pane {
   margin-top: 75px;
   margin-bottom: 75px;
   overflow: hidden;
-
 }
 .detail-1 .left-pane img {
   width: 450px;
@@ -237,13 +240,12 @@ body {
 .detail-1 .right-pane {
   margin-top: 75px;
   margin-bottom: 75px;
-  background-color: rgba(255,255,255,0.9);
+  /*background-color: rgba(255,255,255,0.9);*/
   border-radius: 5px;
   padding: 15px;
-  vertical-align: middle;
 }
 .detail-1 .right-pane h2 {
-  color: #000;
+  color: #4d4d4d;
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 35px;
@@ -252,7 +254,7 @@ body {
   color: #26ae90;
 }
 .detail-1 .right-pane p {
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 .detail-1 .right-pane a.download {
   box-sizing: border-box;
@@ -272,7 +274,6 @@ body {
 }
 .detail-1 .right-pane a.download:hover {
   background-color: #26ae90;
-
 }
 /*section2 start*/
 .detail2 {
@@ -285,40 +286,20 @@ body {
   margin-top: 75px;
   margin-bottom: 75px;
 }
-
-.detail2 .left-pane .planet{
-  font-size: 2em;
-  font-weight: 400;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-.detail2 .left-pane .planet strong{
-  color: #26ae90;
-}
-
-.detail2 .left-pane .function{
-  font-size: 2em;
-  font-weight: 400;
-  margin-bottom: 50px;
-
-}
-
 .detail2 .left-pane h2 {
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 50px;
 }
-
-.detail2 .left-pane h3 {
-  margin-bottom: 35px;
+.detail2 .left-pane h2 strong {
+  color: #26ae90;
 }
-.detail2 .left-pane h4 {
-  font-weight: 300;
+.detail2 .left-pane h3 {
   margin-left: 15px;
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 .detail2 .left-pane p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 200;
   padding-left: 30px;
   margin-bottom: 35px;
@@ -338,20 +319,18 @@ body {
   border-bottom: solid 1px #ececec;
   padding-top: 60px;
   text-align: center;
+
 }
-.detail3 h3 {
+.detail3 h2 {
   color: #000;
-   font-size: 2em;
-  font-weight: 400;
 }
-.detail3 h3 strong {
+.detail3 h2 strong {
   color: #26ae90;
-  font-size: 1.1em;
-  
+  font-size: 1em;
 }
 .detail3 p {
   color: #4d4d4d;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 200;
   letter-spacing: 0.03em;
   margin-top: 35px;
@@ -361,17 +340,60 @@ body {
   width: 100%;
   max-width: 666px;
 }
+
 .price {
-  padding: 45px 0;
+height: 500px;
+
+background-color: white;
+text-align: center;
+padding-top: 40px;
 }
-.price h2 {
-  text-align: center;
+
+/*.price .plan{
+  /*text-align: center;
+  vertical-align: middle;
   color: #4d4d4d;
   font-size: 2.5em;
-  padding-bottom: 20px;
+   width: 100%;
+   padding-top: 60px;
+}
+*/
+.price  h2 {
+font-size: 1.8em;
+margin-bottom: 20px;
+line-height: 150%;
+}
+
+.price .freeplan {
+color: white;
+margin: 0 auto;
+list-style: none;
+height: 150px;
+width: 300px;
+font-size: 1.1em;
+padding: 0;
+background-color: rgb(0,154,116);
+border-radius: 10px;        /* CSS3草案 */  
+-webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+-moz-border-radius: 10px;   /* Firefox用 */ 
+     
+  }
+
+.price .freeplan li{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+.price .attention{
+  padding-top: 30px;
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
-.price .plan-list {
+
+
+
+
+/*.price .plan-list {
   list-style: none;
   padding: 0;
 }
@@ -394,7 +416,6 @@ body {
 }
 .price .plan-list li .plan-detail p {
   font-weight: 400;
-  font-size: 18px;
 }
 .price .plan-list li a.upgrade {
   display: block;
@@ -454,6 +475,7 @@ body {
   color: #4d4d4d;
   font-weight: 300;
 }
+*/
 .create {
   padding: 35px 0;
   background-color: #ea5a42;
@@ -475,8 +497,8 @@ body {
   text-align: center;
 }
 .user .uservoice .user-img {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
 }
 .user .uservoice .user-profile h3 {
   color: #4d4d4d;
