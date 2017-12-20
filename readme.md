@@ -1,3 +1,7 @@
 # Boost web page
 
-Our homepage has been moved to [https://boostnote.io/](https://boostnote.io/)
+- English(en) https://boostnote.io/
+- Japanese(ja) https://boostnote.io/ja/
+- Chinese(cn) https://boostnote.io/cn/
+
+Waiting for your translation contribution 🍻
