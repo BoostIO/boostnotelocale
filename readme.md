@@ -2,6 +2,6 @@
 
 - English(en) https://boostnote.io/
 - Japanese(ja) https://boostnote.io/ja/
-- Chinese(cn) https://boostnote.io/cn/
+- Chinese(zh-CN) https://boostnote.io/cn/
 
 Waiting for your translation contribution 🍻
