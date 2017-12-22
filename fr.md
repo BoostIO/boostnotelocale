@@ -1,6 +1,6 @@
 https://boostnote.io/
 
-# Boost Happiness, Productivity and Creativity.
+# Boostez votre bonheur, votre productivité et votre créativité.
 
 ### L'appli de prise de notes pour les programmeurs basée sur du markdown, des snippets et la personnalisation
 ### Vos meilleurs scripts et wikis sont toujours avec vous et peuvent être édités depuis n'importe où
