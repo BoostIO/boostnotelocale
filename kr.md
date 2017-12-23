@@ -2,8 +2,8 @@ https://boostnote.io/ko/
 
 # Boost Happiness, Productivity and Creativity.
 
-### Boostnote는 프로그래머를 위해 디자인된 마크다운과 스니펫에 기반한 오픈소스 노트 애플리케이션입니다.
-### MacOS, Windows, Linux, Android, iOS와 같은 다양한 플랫폼에서 언제 어디서든 자신의 노트를 읽고 쓸 수 있습니다.
+### Boostnote는 프로그래머를 위해 디자인된 오픈소스 노트 애플리케이션입니다.
+### MacOS, Windows, Linux, Android, iOS와 같은 다양한 플랫폼을 지원하고 있습니다.
 
 
 ## 개발자를 위한 노트 애플리케이션
