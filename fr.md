@@ -1,4 +1,4 @@
-https://boostnote.io/
+https://boostnote.io/fr/
 
 # Boostez votre bonheur, votre productivité et votre créativité.
 
