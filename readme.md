@@ -5,6 +5,7 @@
 - Chinese(zh-CN) https://boostnote.io/cn/
 - Korean(kr) https://boostnote.io/kr/
 - Portuguese(pt) https://boostnote.io/pt/
+- French(fr) https://boostnote.io/fr/
 
 
 Waiting for your translation contribution 🍻
