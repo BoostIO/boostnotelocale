@@ -6,6 +6,7 @@
 - Korean(kr) https://boostnote.io/kr/
 - Portuguese(pt) https://boostnote.io/pt/
 - French(fr) https://boostnote.io/fr/
+- Polish(pl) https://boostnote.io/pl/
 
 
 Waiting for your translation contribution 🍻
