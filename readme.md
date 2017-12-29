@@ -7,6 +7,7 @@
 - Portuguese(pt) https://boostnote.io/pt/
 - French(fr) https://boostnote.io/fr/
 - Polish(pl) https://boostnote.io/pl/
+- Spanish(es) https://boostnote.io/es/
 
 
 Waiting for your translation contribution 🍻
