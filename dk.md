@@ -1,4 +1,4 @@
-https://boostnote.io/
+https://boostnote.io/dk
 
 # Boost Happiness, Productivity and Creativity.
 
