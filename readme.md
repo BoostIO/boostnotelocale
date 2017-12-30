@@ -8,6 +8,7 @@
 - French(fr) https://boostnote.io/fr/
 - Polish(pl) https://boostnote.io/pl/
 - Spanish(es) https://boostnote.io/es/
+- Danish(dk) https://boostnote.io/dk/
 
 
 Waiting for your translation contribution 🍻
