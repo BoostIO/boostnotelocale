@@ -6,14 +6,14 @@ https://boostnote.io/fr/
 ### Vos meilleurs scripts et wikis sont toujours avec vous et peuvent être édités depuis n'importe où
 
 ## Prise de notes pour les programmeurs
-"Vos prises de notes en markdown sont sauvegardées au fur et à mesure que vous écrivez avec différents options afin de formatter au mieux votre texte, tel l'aperçu semi-automatique afin de vérifier au fur et à mesure ce que vous écrivez. Le texte est formatté au fur et à mesure que vous écrivez.
+"Vos prises de notes en markdown sont sauvegardées au fur et à mesure que vous écrivez avec différents options afin de formatter au mieux votre texte, comme l'aperçu semi-automatique afin de vérifier au fur et à mesure ce que vous écrivez. Le texte est formatté en même temps que vous écrivez.
 
 En ce qui concerne les snippets de code, l'application est capable de reconnaître la syntaxe du code dans plus de 100 langages dont le JavaScript, Python, HTML & CSS. Vous pouvez stocker plusieurs snippets de code dans un seul et même snippet."
 
 - OMG! Ubuntu!
 
 ## Communauté de développeurs
-Boostnote a une communauté pour les programmeurs. L'application a gagné beaucoup d'attention sur GitHub et de nombreux contributeurs y contribuent.
+Boostnote possède une communauté pour les programmeurs. L'application a gagné beaucoup d'attention sur GitHub et de nombreux contributeurs contribuent à l'avancée de l'application.
 Supporté par des programmeurs de plus de 200 pays et régions.
 
 Notre communauté vous accueillera à bras ouverts !
