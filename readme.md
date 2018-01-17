@@ -10,6 +10,7 @@
 - Polish(pl) https://boostnote.io/pl/
 - Spanish(es) https://boostnote.io/es/
 - Danish(dk) https://boostnote.io/dk/
+- Albanian(al) https://boostnote.io/al/
 
 
 Waiting for your translation contribution 🍻
